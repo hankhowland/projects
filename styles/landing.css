@@ -1,13 +1,30 @@
-.containerMain {
-    padding: 20% 30%;
-}
-.containerMain div {
-    height:50px;
-}
-.side-by-side {
-    display:flex;
-    flex-direction:row;
-}
-.side-by-side div {
-    border: 2px solid black;
-}
+
+.grid {
+    padding:10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+  }
+  .grid > div {
+    text-align:center;
+    color:white;
+    background: rgb(130, 94, 185);
+    width: 10rem;
+    height: 10rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+  #times-tables-icon {
+      font-weight:bold;
+      font-size:130px;
+      margin-bottom:2px;
+  }
+  a {
+      color:white;
+      font-weight:bold;
+      text-decoration:none;
+  }
+  a:hover {
+      font-weight:bold;
+      color:black;
+  }
