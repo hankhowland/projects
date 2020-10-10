@@ -1,0 +1,13 @@
+.containerMain {
+    padding: 20% 30%;
+}
+.containerMain div {
+    height:50px;
+}
+.side-by-side {
+    display:flex;
+    flex-direction:row;
+}
+.side-by-side div {
+    border: 2px solid black;
+}
