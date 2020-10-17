@@ -1,6 +1,6 @@
 
 .grid {
-    padding:10%;
+    padding:3% 10%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 1rem;
@@ -14,12 +14,13 @@
     padding: 1.5rem;
     border-radius: 1rem;
   }
-  #times-tables-icon {
+  .icon {
       font-weight:bold;
       font-size:130px;
       margin-bottom:2px;
   }
   a {
+      font-size:30px;
       color:white;
       font-weight:bold;
       text-decoration:none;
